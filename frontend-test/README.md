@@ -20,11 +20,14 @@ npm install
 
 ### _Create Variable & connect to api_
 
-create a _.env_ file at the root of the project base on _.example.env_
-**create _secret.ts_ in _/src/stores_ to contain .env due to error in local from import.meta.env by vite**
+create a _.env_ file at the root of the project base on _.example.env_ 
 
+- note : **create _secret.ts_ in _/src/stores_ to contain _.env_ due to error in local from _import.meta.env_ by vite**
+
+#### _.env_ OR _secret.ts_
 ```
 REACT_APP_API_URL = "https://api.giphy.com/v1/gifs"
+API_KEY
 ```
 
 ### _Run in local_
